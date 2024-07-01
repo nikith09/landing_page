@@ -87,3 +87,37 @@ strong > a {
   border-radius: 5px;
   padding: 8px 24px;
 }
+
+.infobar {
+  text-align: center;
+  padding: 50px;
+}
+
+.infobar > h1 {
+  margin-bottom: 30px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.planets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.planet {
+  width: 200px;
+}
+
+.planet img {
+  height: 220px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.planet p {
+  color: #1f2937;
+}
